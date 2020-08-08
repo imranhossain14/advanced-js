@@ -23,7 +23,7 @@ console.log(id);
 const bigger = student.filter(s=>s.id>40);
 console.log(bigger);
 
-// find
+// find -> will provide the first match data
 
 const bigger2 = student.find(s=>s.id>40);
 console.log(bigger2);
